@@ -1,5 +1,4 @@
-    Note: After using the Google Custom Search API for a while, I found that it does not produce results that are as 
-    consistent as those found on google.ca. I was unable to locate a reliable API service, so I changed my strategy 
+    Note: After using the Google Custom Search API for a while, I found that it does not produce results that are as consistent as those found on google.ca. I was unable to locate a reliable API service, so I changed my strategy 
     to data scraping. Although the automatic scraping now in place operates flawlessly, there could be a problem down 
     the road: if the application is used abusively, Google might block the user's IP address. Currently, this problem 
     is mitigated by changing the user_agent with each request. To guarantee that Google cannot prevent data requests 
